@@ -6,7 +6,6 @@ if File.file?("Story1489715.txt") then
 
   input_file.each do |line|
 
-
     puts line
 
   end
