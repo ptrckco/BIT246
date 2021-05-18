@@ -1,3 +1,6 @@
+require 'rubyXL'
+
+
 begin
 
   print "Please enter the file name: "
