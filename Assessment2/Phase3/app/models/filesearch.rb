@@ -1,0 +1,2 @@
+class Filesearch < ApplicationRecord
+end

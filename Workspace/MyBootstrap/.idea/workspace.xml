@@ -20,7 +20,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Example2App" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="Rails.Development: MyBootstrap">
@@ -124,6 +124,7 @@
       <workItem from="1620643532173" duration="617000" />
       <workItem from="1620693210027" duration="1825000" />
       <workItem from="1620886827123" duration="1183000" />
+      <workItem from="1621505856506" duration="312000" />
     </task>
     <servers />
   </component>

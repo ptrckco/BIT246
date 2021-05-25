@@ -1,0 +1,2 @@
+Ways of Installing xx. We have several tools on each major platform to install xx: On Linux/UNIX,
+you can use the package management system of your

@@ -3,6 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BIT246.iml" filepath="$PROJECT_DIR$/.idea/BIT246.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CookBook.iml" filepath="$PROJECT_DIR$/.idea/modules/CookBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Example2App.iml" filepath="$PROJECT_DIR$/.idea/modules/Example2App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FileApp.iml" filepath="$PROJECT_DIR$/.idea/modules/FileApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyBootstrap.iml" filepath="$PROJECT_DIR$/.idea/modules/MyBootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase3.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Product.iml" filepath="$PROJECT_DIR$/.idea/modules/Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SignupApp.iml" filepath="$PROJECT_DIR$/.idea/modules/SignupApp.iml" />
     </modules>
   </component>
 </project>
