@@ -1,0 +1,30 @@
+<div align="center" class = 'title'> <h1> Add a Book </h1> </div>
+
+<br> 
+
+<div align="center" class = 'new_div1'>
+
+<div align="center" class = 'new_div1_left_side'>
+
+<div class = 'new_div1_left_side_form'> 
+<h1> New Book Form </h1> 
+<%= render partial: "form" %>
+</div> 
+
+</div> 
+
+<div class = 'new_div1_right_side'> 
+<%= image_tag('https://cdn.elearningindustry.com/wp-content/uploads/2016/05/top-10-books-every-college-student-read-1024x640.jpeg', height:"150", length:"90", :class => 'new_div1_right_side_image') %>
+</div> 
+
+</div>
+
+<br>
+<br>
+<center>
+<%= link_to "See all books", books_url %>
+
+<br> 
+
+<%= link_to "Menu page", about_page_path %>
+</center>

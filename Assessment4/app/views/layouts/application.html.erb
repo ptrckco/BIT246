@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BookCatalogueApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%#= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%#= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+    <div align = 'center' class = 'top_menu'>
+      <h2> <p> <%= link_to "About us", about_page_path, :class => "top_menu_links" %> </p>  </h2>
+      <h2> <p> <%= link_to "Create New Book", new_book_path, :class => "top_menu_links" %> </p> </h2>
+      <%= image_tag('https://1.bp.blogspot.com/-sSLVZq88Du4/VyjPKKsCkSI/AAAAAAABUVU/_FqGdK3BG4UQ2mmH8nPuv3JTNWbrHk6dQCLcB/s1600/Troy%2BDenning%2B-%2BCrucible%2Bby%2BTwo%2BDots.jpg', height:400, length:100,  :class => ('image_in_top_menu')) %>
+      <h2> <p> <%= link_to "Our Books", books_path, :class => "top_menu_links" %> </p> </h2>
+      <h2> <p> <%= link_to "Our Mission", our_mission_path, :class => "top_menu_links" %> </p> </h2>
+    </div>
+      <%= yield %>
+  </body>
+</html>

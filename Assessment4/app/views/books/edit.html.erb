@@ -1,0 +1,43 @@
+<h1 class = "title"> Edit book </h1>
+
+<%= form_for @book do |b| %>
+
+    <p>
+    <%= b.label :author %>
+    <br>
+    <%= b.text_field :author %>
+    </p> 
+
+    <p>
+    <%= b.label :title %>
+    <br>
+    <%= b.text_field :title %>
+    </p>
+
+  <p>
+    <%= b.label :category %>
+    <br>
+    <%= b.text_field :category %>
+  </p>
+
+  <p>
+    <%= b.label :year %>
+    <br>
+    <%= b.text_field :year %>
+    </p> 
+
+    <p>
+    <%= b.label :isbn %>
+    <br>
+    <%= b.text_field :isbn %>
+    </p> 
+
+    <p>
+    <%= b.submit %>
+    </p>
+
+    <% end %>
+
+    <%= link_to "Back", @book, :class => 'link' %>
+
+

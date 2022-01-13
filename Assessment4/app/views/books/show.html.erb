@@ -1,0 +1,32 @@
+<div align = 'center' class = "show_div_1"> <h1 class = "show_div_1_text"> <%= @book.title %> </h1> </div>
+   
+    
+    <div align = 'center' class = "show_div_2">
+    
+    <div class = "show_div_2_title"> 
+        <h2 class = "show_div_2_title_text"> <%= @book.title %> </h2>
+    </div> 
+    
+    
+        <h2 class = "show_div_2_author" >  <%= @book.author %> </h2>
+        <h2 class = "show_div_2_year" > <%= @book.year %> </h2>
+    
+
+    </div>
+
+    <br>     
+    
+    <div align="center" class = "show_div_3">
+
+    <h3> <%= link_to "Edit book", edit_book_url, :class => 'link' %> </h3> 
+
+    <br>
+
+    <h3> <%= link_to "Back to all books", books_url, :class => 'link' %> </h3>
+
+    <br>
+
+    <h3> <%= link_to "Delete", book_path(@book), method: :delete, data: {confirm: "Are you sure you want to delete this book?"}  %> </h3> 
+         
+    </div> 
+
