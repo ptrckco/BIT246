@@ -1,0 +1,41 @@
+<!-- Assessment 4-->
+<!-- Patrick Theodore Co-->
+<!-- S1489715-->
+<center>
+<h1>Add your book</h1>
+
+<%= form_for @books do |f| %>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :author %><br />
+    <%= f.text_field :author %>
+  </p>
+  <p>
+    <%= f.label :genre %><br />
+    <%= f.text_field :genre %><br />
+  </p>
+  <p>
+    <%= f.label :classification %><br />
+    <%= f.text_field :classification %>
+  </p>
+  <p>
+    <%= f.label :types %><br />
+    <%= f.text_field :types %>
+  </p>
+  <p>
+    <%= f.label :year %><br />
+    <%= f.text_field :year %>
+  </p>
+  <p>
+    <%= f.submit "Add book" %>
+  </p>
+
+<% end %>
+</center>
+
+<center>
+  <%= link_to("Back", :back) %>
+</center>

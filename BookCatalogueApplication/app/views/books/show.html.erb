@@ -1,0 +1,26 @@
+<center>
+<h1>Book selected</h1>
+<br />
+
+<table>
+<tr>
+  <th>Title</th>
+  <th>Author</th>
+  <th>Genre</th>
+  <th>Classification</th>
+  <th>Type</th>
+  <th>Year</th>
+<tr>
+  <td><%= @book.title %></td>
+  <td><%= @book.author %></td>
+  <td><%= @book.genre %></td>
+  <td><%= @book.classification %></td>
+  <td><%= @book.types %></td>
+  <td><%= @book.year %></td>
+</tr>
+</table>
+
+
+  <%= link_to("Back", :back) %>
+</center>
+
